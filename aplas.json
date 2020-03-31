@@ -18,7 +18,66 @@
       "end_of_life": "27/2/20",
       "months_to_renew_support": "1",
       "sme_email": "Hector.Husher@memento.net.au",
-      "investment_number": "321"
+      "investment_number": "321",
+      "integrations": [
+        {
+          "id": "int-169",
+          "name": "INT-169",
+          "categoryId": "f584fe23-c532-404a-bf69-4bcbcea094d3",
+          "description": "Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.",
+          "sourceApplicationId": "gembucket",
+          "targetApplicationId": "herding_ws",
+          "logical_server": "A2A",
+          "status_color": "#00FF00",
+          "pattern": "File Delivery",
+          "golive_date": "5/5/08",
+          "sme_name": "Flem Mungan",
+          "datacentre": "Altona",
+          "department": "Integration",
+          "status": "Active",
+          "sme_email": "fmungan4@memento.net.au",
+          "complexity": "High",
+          "last_deployment_date": "2/12/14"
+        },
+        {
+          "id": "int-161",
+          "name": "INT-161",
+          "categoryId": "f584fe23-c532-404a-bf69-4bcbcea094d3",
+          "description": "Proin at turpis a pede posuere nonummy. Integer non velit.",
+          "sourceApplicationId": "gembucket",
+          "targetApplicationId": "granular_big_data",
+          "logical_server": "CLOUD-A2A",
+          "status_color": "#FFFF04",
+          "pattern": "Scatter Gather",
+          "golive_date": "25/11/03",
+          "sme_name": "Alfy Greader",
+          "datacentre": "Asia Pacific (Melbourne)",
+          "department": "Integration",
+          "status": "Testing",
+          "sme_email": "agreaderj@memento.net.au",
+          "complexity": "High",
+          "last_deployment_date": "10/4/17"
+        },
+        {
+          "id": "int-225",
+          "name": "INT-225",
+          "categoryId": "f584fe23-c532-404a-bf69-4bcbcea094d3",
+          "description": "Nunc nisl.",
+          "sourceApplicationId": "gembucket",
+          "targetApplicationId": "granular_big_data",
+          "logical_server": "ONLINE",
+          "status_color": "#00FF00",
+          "pattern": "Sync Request-Reply",
+          "golive_date": "16/6/17",
+          "sme_name": "Alfy Greader",
+          "datacentre": "Altona",
+          "department": "Integration",
+          "status": "Active",
+          "sme_email": "agreaderj@memento.net.au",
+          "complexity": "Low",
+          "last_deployment_date": "23/5/17"
+        }
+      ]
     }
   ]
 }
